@@ -1,0 +1,151 @@
+/* Color Palette
+#EEF3EA - color 1 
+#2F4538 - color 2
+#DCE6D5 - color 3
+#FFFFFF - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEF3EA;
+    margin: 0;
+    padding: 20px;
+    color: #2f4538;
+    font-family: "Nunito Sans", Arial, Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+header, main, footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2{
+    font-family: "Lora", Georgia, serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 12px 0;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-bottom: 6px;
+}
+
+p {
+    margin: 8px 0;
+}
+
+section {
+    margin: 24px 0;
+    padding: 28px;
+    border: 1px solid #2f4538;
+    border-radius: 20px;
+
+}
+
+section h2{
+    text-align: center;
+}
+
+section h2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 60px;
+    margin: 12px auto 24px;
+    background: #dce6d5;
+
+
+}
+
+ul{
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #2f4538;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+}
+
+a:hover{
+    text-decoration-thickness: 2px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background: #dce6d5;
+    padding: 32px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ffff;
+
+}
+
+header h2{
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: 18px;
+}
+
+header p {
+    max-width: 650px;
+    margin: 16px auto;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 20px;
+}
+
+footer p{
+    margin-top: 20px;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background: #ffff;
+}
+
+.project-experience {
+    background: #FFFFFF;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+    background: #FFFFFF;
+}
