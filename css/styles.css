@@ -7,6 +7,7 @@
 
 /* Global styles 
 ------------------------------------*/
+/* box model class code snippet */
 html{
     box-sizing: border-box;
 }
@@ -17,7 +18,6 @@ html{
 body {
     background: #EEF3EA;
     margin: 0;
-    padding: 20px;
     color: #2f4538;
     font-family: "Nunito Sans", Arial, Sans-serif;
     font-size: 16px;
@@ -51,13 +51,6 @@ p {
     margin: 8px 0;
 }
 
-section {
-    margin: 24px 0;
-    padding: 28px;
-    border: 1px solid #2f4538;
-    border-radius: 20px;
-
-}
 
 section h2{
     text-align: center;
@@ -92,23 +85,54 @@ a:hover{
     text-decoration-thickness: 2px;
 }
 
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide{
+    width: 70%; 
+    float: left;
+    min-height: 225px;
+}
+
+.column-narrow h3{
+    margin-top: 0;
+}
+
+.column-wide ul{
+    margin-top: 0;
+}
+.project-item{
+    overflow: hidden;
+}
+
+.work-experience-item{
+    overflow: hidden;
+}
 
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
-    background: #dce6d5;
-    padding: 32px;
-    border-radius: 20px;
-    text-align: center;
+    background-color: #dce6d5;
 }
 
-header img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+.profile-img {
+    height: auto;
     border-radius: 50%;
-    border: 2px solid #ffff;
+}
 
+header h1, header h2{
+    margin: 0;
 }
 
 header h2{
@@ -121,15 +145,17 @@ header p {
     margin: 16px auto;
 }
 
-footer div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px 20px;
+footer {
+    text-align: center;
 }
 
 footer p{
     margin-top: 20px;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
 }
 
 /* Work Experience
