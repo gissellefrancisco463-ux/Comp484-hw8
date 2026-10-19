@@ -4,4 +4,4 @@ My project is a personal resume website that showcases my background, project ex
 ## 🚀 Live Demo
 
 You can view the published website here:
-[Live Website on GitHub Pages] (https://gissellefrancisco463-ux.github.io/Comp484-hw6/)
+[Live Website on GitHub Pages] (https://gissellefrancisco463-ux.github.io/Comp484-hw8/)
