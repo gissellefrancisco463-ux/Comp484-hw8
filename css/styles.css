@@ -155,7 +155,6 @@ header, footer {
 }
 
 .profile-img {
-    width: 300px;
     height: auto;
     border-radius: 50%;
 }
@@ -201,7 +200,8 @@ footer p{
 
 /* Education
 ------------------------------------*/
-/*background image */
+/*background image with rgba*/
+
 .education {
     background-color: #EEF3EA;
     background-image: 
@@ -211,6 +211,7 @@ footer p{
             rgba(245, 248, 243, 0.65)
         ),
          url("../images/library.jpg");
+         /*Background Property */
          background-attachment: scroll;
          background-size: cover;
          background-position:center;
