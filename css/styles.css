@@ -217,7 +217,7 @@ a. Make use of the RGB and Alpha transparency to add a gradiant to your image. S
     background-image: 
         /*using linear-gardient value lets you create your gradient by adding two colors*/
         /*Week 7: slide 30 background image property to add a gradient instead of an image*/
-        linear-gradient(  
+        linear-gradient(
             /* red, green, blue, alpha transparency value */
             /*0 = transparent; 1 = opaque (hides more of the background image) */
             rgba(238, 243,234,0.95),
