@@ -50,7 +50,7 @@ h3 {
 }
 
 p {
-    margin: 8px 0;
+    margin: 10px 0;
 }
 
 
@@ -144,6 +144,7 @@ a:hover{
     padding: 16px;
     display: inline-block;
     text-decoration: none;
+    color: rgb(48, 123, 80)
 }
 
 
@@ -170,7 +171,7 @@ header h2{
 
 header p {
     max-width: 650px;
-    margin: 16px auto;
+    margin: 15px auto;
 }
 
 footer {
@@ -201,19 +202,29 @@ footer p{
 /* Education
 ------------------------------------*/
 /*background image with rgba*/
+/*Longhand Syntax vs Shorthand Syntax*/
+/*Longhand sets each property separately*/
+/*Shorthand combines properties into one declaration to save space. */
+
+/* hw 8
+Add a background image to one of your resume sections.
+a. Make use of the RGB and Alpha transparency to add a gradiant to your image. Some examples are shown in the lecture material.   */
+
 
 .education {
-    background-color: #EEF3EA;
     background-image: 
-        linear-gradient(
-            to bottom, 
+        /*using linear-gardient value lets you create your gradient by adding two colors*/
+        /*Week 7: slide 30 background image property to add a gradient instead of an image*/
+        linear-gradient(  
+            /* red, green, blue, alpha transparency value */
+            /*0 = transparent; 1 = opaque*/
             rgba(238, 243,234,0.95),
-            rgba(245, 248, 243, 0.65)
+            rgba(243, 252, 237, 0.60)
         ),
-         url("../images/library.jpg");
+         url("../images/library.jpg"); 
          /*Background Property */
-         background-attachment: scroll;
-         background-size: cover;
-         background-position:center;
-         background-repeat: no-repeat;
+         background-attachment: fixed; /*background doesn't moves with the section when scrolling*/
+         background-size: cover; /*Fills the section; may crop parts of the image*/
+         background-position:center; /*Centers the background image*/
+         background-repeat: no-repeat; /*Prevents the image from repeating*/
 }
